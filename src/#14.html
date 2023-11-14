@@ -9,14 +9,23 @@
         <p>タイトル</p>
         <input type="text" name="name"><br>
         <p>概要</p>
-        <input type="text" name="discription"><br>
+        <textarea>
+        概要を入力してください
+        </textarea><br>
         <div class="money">
             <p>価格</p>
             <input type="number" name="price">
         </div>
         <div class="category">
             <p>カテゴリー</p>
-            <input type="text" name="category">
+            <select name="category">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+        <div class="button">
+            <input type="button" value="作成">
         </div>
     </body>
 </html>
